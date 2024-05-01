@@ -14,19 +14,19 @@ const Header = ()=>{
                 <div>
                     <h1 className=" w-16 md:text-2xl lg:text-s3xl text-xl font-bold text-[#047fd9]">Portfolio</h1>
                 </div>
-                <div className={`md:static absolute bg-black md:min-h-fit min-h-[40vh] left-0 ${toggle ? "top-[9%]" : "top-[-100%]"} md:w-auto w-full flex items-center px-5`}>
+                <div className={`md:static absolute bg-black md:min-h-fit min-h-[40vh] left-0 ${toggle ? "top-[16%]" : "top-[-100%]"} md:w-auto w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mx-auto mb-5 md:mb-0">
                         <li>
-                            <a className="hover:text-gray-300" href="">Home</a>
+                            <a className="hover:text-[#0872BF]" href="">Home</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-300" href="">About</a>
+                            <a className="hover:text-[#0872BF]" href="">About</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-300" href="">Projects</a>
+                            <a className="hover:text-[#0872BF]" href="">Projects</a>
                         </li>
                         <li>
-                            <a className="hover:text-gray-300" href="">Contact</a>
+                            <a className="hover:text-[#0872BF]" href="">Contact</a>
                         </li>
                     </ul>
                 </div>
