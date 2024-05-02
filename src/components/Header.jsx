@@ -14,7 +14,7 @@ const Header = ()=>{
                 <div>
                     <h1 className=" w-16 md:text-2xl lg:text-s3xl text-xl font-bold text-[#047fd9]">Portfolio</h1>
                 </div>
-                <div className={`md:static absolute bg-black md:min-h-fit min-h-[40vh] left-0 ${toggle ? "top-[16%]" : "top-[-100%]"} md:w-auto w-full flex items-center px-5`}>
+                <div className={`md:static absolute bg-black md:min-h-fit min-h-[40vh] left-0 ${toggle ? "top-[8%]" : "top-[-100%]"} md:w-auto w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mx-auto mb-5 md:mb-0">
                         <li>
                             <a className="hover:text-[#0872BF]" href="">Home</a>
@@ -31,7 +31,11 @@ const Header = ()=>{
                     </ul>
                 </div>
                 <div className="flex items-center gap-6">
-                    <button className="bg-[#0872BF] text-white font-medium md:px-5 md:py-2 px-3 py-1 text-sm rounded-full hover:bg-[#047fd9]">Download CV</button>
+                    {/* <button className="bg-[#0872BF] text-white font-medium md:px-5 md:py-2 px-3 py-1 text-sm rounded-full hover:bg-[#047fd9]">Download CV</button> */}
+                    <a href="/path/to/your/cv.pdf" download="your-cv.pdf">
+                        <button className="bg-[#0872BF] text-white font-medium md:px-5 md:py-2 px-3 py-1 text-sm rounded-full hover:bg-[#047fd9]">Download CV</button>
+                    </a>
+
                     {
                         toggle?<i className="fa-solid fa-xmark text-3xl md:hidden" onClick={clickHandler}></i>:<i className="fa-solid fa-bars text-2xl md:hidden" onClick={clickHandler}></i>
                     }
