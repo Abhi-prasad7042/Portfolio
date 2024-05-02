@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header/>
     <Banner/>
     <Skill/>
-    <About/>
     <Projects/>
+    <About/>
   </React.StrictMode>,
 )

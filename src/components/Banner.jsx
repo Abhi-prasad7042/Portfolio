@@ -10,7 +10,7 @@ const Banner = () =>{
                     <p className="text-2xl 2xl:text-3xl mb-3 tracking-[1px]">Software Engineer & Data Scientist</p>
                     <p className="text-md 2xl:text-lg mb-10 md:w-3/4  leading-2">I excel at finding innovative solutions through constant exploration. My goal is to deliver real value for my clients/colleagues/team.</p>
                     
-                    <a href="mailto:recipient@example.com" target="_blank" rel="noopener noreferrer" className="font-semibold md:font-bold 2xl:text-sm md:text-sm text-md">
+                    <a href="mailto:abhiprasad7042@gmail.com" target="_blank" rel="noopener noreferrer" className="font-semibold md:font-bold 2xl:text-sm md:text-sm text-md">
                         <button className="py-2 px-5 rounded-md bg-[#0872BF] hover:bg-sky-700">Let's Talk</button>
                     </a>
 
@@ -22,8 +22,8 @@ const Banner = () =>{
                         </div>
                     </div>
                 </div>
-                <div className="profile-img md:w-1/3 bg-[#0872BF] mb-10 order-first md:order-none ">
-                    <img src="prof.jpg" alt="" className="object-contain max-h-80 mx-auto"/>
+                <div className="profile-img2 md:w-1/3 bg-[#2196F3] mb-10 order-first md:order-none ">
+                    <img src="profile1.png" alt="" className="profile-img object-cover max-h-72 mx-auto"/>
                 </div>
             </div>
         </section>
