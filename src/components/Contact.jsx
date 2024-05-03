@@ -9,18 +9,18 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setIsMessage(true)
-    // emailjs
-    //   .sendForm('service_8dep29s', 'template_1pgdi4r', form.current, {
-    //     publicKey: 'qU1cGh_P5FGm5_tYd',
-    //   })
-    //   .then(
-    //     () => {
-    //       console.log('SUCCESS!');
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error.text);
-    //     },
-    //   );
+    emailjs
+      .sendForm('service_8dep29s', 'template_1pgdi4r', form.current, {
+        publicKey: 'qU1cGh_P5FGm5_tYd',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
     setTimeout(() => {
       document.querySelector('#contact-form').reset();
     }, 1800);
