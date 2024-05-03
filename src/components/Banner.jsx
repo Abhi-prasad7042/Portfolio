@@ -23,7 +23,7 @@ const Banner = () =>{
                     </div>
                 </div>
                 <div className="profile-img2 md:w-1/3 bg-[#2196F3] mb-10 order-first md:order-none ">
-                    <img src="profile2.png" alt="" className="profile-img object-cover max-h-72 mx-auto"/>
+                    <img src="profile.png" alt="" className="profile-img object-cover max-h-72 mx-auto"/>
                 </div>
             </div>
         </section>

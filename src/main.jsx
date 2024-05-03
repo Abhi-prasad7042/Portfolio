@@ -7,6 +7,7 @@ import About from './components/About.jsx'
 import Skill from './components/Skill.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Projects/>
     <About/>
     <Contact/>
+    <Footer/>
   </React.StrictMode>,
 )

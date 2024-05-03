@@ -9,8 +9,8 @@ const Header = ()=>{
     }
 
     return(
-        <header className="bg-black text-white">
-            <nav className="flex justify-between items-center w-[92%] mx-auto h-16">
+        <header className="bg-black text-white md:sticky md:top-0">
+            <nav className="flex justify-between items-center w-[92%] mx-auto h-16 ">
                 <div>
                     <h1 className=" w-16 md:text-2xl lg:text-s3xl text-xl font-bold text-[#047fd9]">Portfolio</h1>
                 </div>
@@ -32,7 +32,7 @@ const Header = ()=>{
                 </div>
                 <div className="flex items-center gap-6">
                     {/* <button className="bg-[#0872BF] text-white font-medium md:px-5 md:py-2 px-3 py-1 text-sm rounded-full hover:bg-[#047fd9]">Download CV</button> */}
-                    <a href="/path/to/your/cv.pdf" download="your-cv.pdf">
+                    <a href="https://drive.google.com/file/d/1J3hRvnWoltAmq2s6mhWQ4txGXv31vA2k/view?usp=sharing" download="your-cv.pdf">
                         <button className="bg-[#0872BF] text-white font-medium md:px-5 md:py-2 px-3 py-1 text-sm rounded-full hover:bg-[#047fd9]">Download CV</button>
                     </a>
 
