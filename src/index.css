@@ -5,7 +5,7 @@
 /* ---- Liqued  animation ---- */
 
 .profile-img {
-width: 280px;
+width: 240px;
 height: 310px;
 border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
 animation: liqued-bg 8s ease-in-out infinite;
@@ -27,7 +27,7 @@ animation: liqued-bg 8s ease-in-out infinite;
 }
 
 .profile-img2 {
-    width: 280px;
+    width: 240px;
     height: 280px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     animation: liqued-bg 8s ease-in-out infinite;

@@ -1,7 +1,7 @@
 
 const Banner = () =>{
     return (
-        <section className="max-w-[1200px] 2xl:max-w-[1500px] mx-auto px-5 mt-12">
+        <section id="home" className="max-w-[1200px] 2xl:max-w-[1500px] mx-auto px-5 mt-12">
             <div className="py-5 text-white flex flex-col md:flex-row justify-around items-center gap-4 mx-auto ">
 
                 <div className="md:w-1/2">
@@ -16,14 +16,14 @@ const Banner = () =>{
 
                     <div className="mt-6 mb-8 flex gap-4 items-center">
                         <div className="2xl:gap-2 flex">
-                            <a href="#"><i className="fa-brands fa-instagram text-2xl 2xl:text-3xl text-[#0872BF] w-8 h-8"></i></a>
-                            <a href="#"><i className="fa-brands fa-linkedin text-2xl 2xl:text-3xl text-[#0872BF] w-8 h-8"></i></a>
-                            <a href="#"><i className="fa-brands fa-github text-2xl 2xl:text-3xl text-[#0872BF] w-8 h-8"></i></a>
+                            <a href="https://www.instagram.com/abhikumar_sh/?igsh=MTUxcGJoZDJtc3dqeA%3D%3D"><i className="fa-brands fa-instagram text-2xl 2xl:text-3xl text-[#0872BF] w-8 h-8"></i></a>
+                            <a href="https://www.linkedin.com/in/abhishek-kumar-a06048165/"><i className="fa-brands fa-linkedin text-2xl 2xl:text-3xl text-[#0872BF] w-8 h-8"></i></a>
+                            <a href="https://github.com/Abhi-prasad7042"><i className="fa-brands fa-github text-2xl 2xl:text-3xl text-[#0872BF] w-8 h-8"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="profile-img2 md:w-1/3 bg-[#2196F3] mb-10 order-first md:order-none ">
-                    <img src="profile1.png" alt="" className="profile-img object-cover max-h-72 mx-auto"/>
+                    <img src="profile2.png" alt="" className="profile-img object-cover max-h-72 mx-auto"/>
                 </div>
             </div>
         </section>

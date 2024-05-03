@@ -30,7 +30,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-5 my-10 ">
+    <section id='contact' className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-5 my-10 ">
       <h1 className="text-center text-xl 2xl:text-2xl tracking-[1px] text-[#0872BF] font-semibold 2xl:mr-[6vw]"><span className="text-white">Contact</span> Me</h1>
       <form id='contact-form' ref={form} onSubmit={sendEmail} className='flex flex-col items-center'>
         <div className=' my-5 md:w-[800px] w-[350px] flex justify-between'>

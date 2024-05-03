@@ -17,16 +17,16 @@ const Header = ()=>{
                 <div className={`md:static absolute bg-black md:min-h-fit min-h-[40vh] left-0 ${toggle ? "top-[8%]" : "top-[-100%]"} md:w-auto w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mx-auto mb-5 md:mb-0">
                         <li>
-                            <a className="hover:text-[#0872BF]" href="">Home</a>
+                            <a className="hover:text-[#0872BF]" href="#home">Home</a>
                         </li>
                         <li>
-                            <a className="hover:text-[#0872BF]" href="">About</a>
+                            <a className="hover:text-[#0872BF]" href="#about">About</a>
                         </li>
                         <li>
                             <a className="hover:text-[#0872BF]" href="">Projects</a>
                         </li>
                         <li>
-                            <a className="hover:text-[#0872BF]" href="">Contact</a>
+                            <a className="hover:text-[#0872BF]" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
