@@ -2,8 +2,8 @@
 const Projects = ()=>{
     return (
         <section className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-5 mb-10">
-            <h1 className="text-center text-xl 2xl:text-2xl tracking-[1px] text-[#0872BF] font-semibold 2xl:mr-[6vw]"><span className="text-white">Recent</span> Projects</h1>
-
+            <h1 className="text-center text-xl 2xl:text-2xl tracking-[1px] text-[#C73E86] font-semibold 2xl:mr-[6vw]"><span className="text-white">Recent</span> Projects</h1>
+            <div className="h-[1px] my-2 w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
             <div className="flex md:flex-row flex-col justify-between mt-10 items-center">
                 <div className="md:w-[250px] 2xl:w-[300px] w-[300px] px-5 py-4 my-3 rounded-lg border border-[#0872BF] shadow-purple-500 cursor-pointer shadow-sm hover:scale-[1.02] transition-all duration-300">
                     <img src="https://www.icegif.com/wp-content/uploads/car-icegif-6.gif" alt="" className="w-[192px] h-[125px] mb-8 mx-auto rounded-lg"/>

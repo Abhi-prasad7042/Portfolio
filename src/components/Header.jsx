@@ -10,7 +10,7 @@ const Header = ()=>{
     }
 
     return(
-        <header className="bg-black text-white md:sticky md:top-0">
+        <header className="bg-black text-white">
             <nav className="flex justify-between items-center w-[92%] mx-auto h-16 ">
                 <div>
                     <h1 className=" w-16 md:text-2xl lg:text-s3xl text-xl font-bold text-purple-500">Abhishek</h1>
