@@ -18,13 +18,13 @@ const Header = ()=>{
                 <div className={`md:static absolute bg-black md:min-h-fit min-h-[40vh] left-0 ${toggle ? "top-[8%]" : "top-[-100%]"} md:w-auto w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 mx-auto mb-5 md:mb-0">
                         <li>
-                            <Link className="hover:text-purple-600" to="/">Home</Link>
+                            <a className="hover:text-purple-600" href="#home">Home</a>
                         </li>
                         <li>
                             <a className="hover:text-purple-600" href="#about">About</a>
                         </li>
                         <li>
-                            <Link className="hover:text-purple-600" to="/project">Projects</Link>
+                            <a className="hover:text-purple-600" href="#projects">Projects</a>
                         </li>
                         <li>
                             <a className="hover:text-purple-600" href="#contact">Contact</a>

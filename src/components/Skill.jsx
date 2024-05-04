@@ -2,84 +2,84 @@ import Marquee from "react-fast-marquee";
 
 const Skill = ()=>{
     return(
-        <section className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-5 mb-10">
-            <h1 className="text-center mb-2 text-2xl 2xl:text-2xl tracking-[1px] text-[#C73E86] font-semibold 2xl:mr-[6vw]">Skills</h1>
+        <section className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-5 mb-10 ">
+            <h1 className="text-center mb-2 text-xl 2xl:text-2xl tracking-[1px] text-[#C73E86] font-semibold 2xl:mr-[6vw]">Skills</h1>
             <div className="h-[1px] my-2 w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
             <div className="py-5 md:px-9 text-white flex flex-col md:flex-row justify-around items-center md:gap-4 gap-2 mx-auto">
                 <Marquee>
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 my-2 md:w-[130px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/python.svg" alt="" className="md:w-[50px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-3">Python</p>
+                        <p className="text-center text-white md:text-md text-sm py-3">Python</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
-                        <img src="image/pandas2.png" alt="" className="md:w-[60px] md:h-[80px] h-[60px] w-[30px] mx-auto py-1 mt-1" />
-                        <p className="text-center text-white md:text-xl text-sm ">Pandas</p>
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
+                        <img src="image/pandas1.png" alt="" className="md:w-[60px] md:h-[80px] h-[60px] w-[30px] mx-auto py-1 mt-1" />
+                        <p className="text-center text-white md:text-md text-sm ">Pandas</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/numpy.svg" alt="" className="md:w-[46px] w-[35px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm md:py-3 py-1">Numpy</p>
+                        <p className="text-center text-white md:text-md text-sm md:py-3 py-1">Numpy</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/matplotlib.png" alt="" className="md:w-[60px] w-[40px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm md:py-1 ">Matplotlib</p>
+                        <p className="text-center text-white md:text-md text-sm md:py-1 ">Matplotlib</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/seaborn.svg" alt="" className="md:w-[60px] w-[40px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm md:py-1">Seaborn</p>
+                        <p className="text-center text-white md:text-md text-sm md:py-1">Seaborn</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/sckt.png" alt="" className="md:w-[90px] h-[50px] w-[30px] mx-auto py-1 mt-3" />
-                        <p className="text-center text-white md:text-xl text-sm md:py-5 py-2">Scikit-Learn</p>
+                        <p className="text-center text-white md:text-md text-sm md:py-5 py-2">Scikit-Learn</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/opencv.svg" alt="" className="md:w-[50px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-3">OpenCV</p>
+                        <p className="text-center text-white md:text-md text-sm py-3">OpenCV</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/pytorch.svg" alt="" className="md:w-[40px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm md:py-2 py-1">Pytorch</p>
+                        <p className="text-center text-white md:text-md text-sm md:py-2 py-1">Pytorch</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/tensorflow.svg" alt="" className="md:w-[40px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm md:py-3 py-1">Tensorflow</p>
+                        <p className="text-center text-white md:text-md text-sm md:py-3 py-1">Tensorflow</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/django.svg" alt="" className="md:w-[50px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-2">Django</p>
+                        <p className="text-center text-white md:text-md text-sm py-2">Django</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/react.svg" alt="" className="md:w-[50px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-3">React</p>
+                        <p className="text-center text-white md:text-md text-sm py-3">React</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/tailwind.svg" alt="" className="md:w-[70px] w-[50px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-3 md:my-2 my-0">Tailwind</p>
+                        <p className="text-center text-white md:text-md text-sm py-3 md:my-2 my-0">Tailwind</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/javascript.svg" alt="" className="md:w-[50px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-3">Javascript</p>
+                        <p className="text-center text-white md:text-md text-sm py-3">Javascript</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/html.svg" alt="" className="md:w-[50px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-2">HTML</p>
+                        <p className="text-center text-white md:text-md text-sm py-2">HTML</p>
                     </div>
 
-                    <div className="border-2 md:w-[140px] w-[100px] md:h-[140px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 md:shadow-lg shadow-md md:mx-12 mx-8">
+                    <div className="border-2 md:w-[140px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">
                         <img src="image/css.svg" alt="" className="md:w-[50px] w-[30px] mx-auto py-2 mt-2" />
-                        <p className="text-center text-white md:text-xl text-sm py-2">CSS</p>
+                        <p className="text-center text-white md:text-md text-sm py-2">CSS</p>
                     </div>
                     
                 </Marquee>
