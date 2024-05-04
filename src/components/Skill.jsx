@@ -11,7 +11,7 @@ const Skill = ()=> {
                         <li className="flex items-center justify-between">
                             <p className="text-[18px]">Python</p>
                             <div className="bg-black w-[50%] h-1.5 rounded-full 2xl:mr-32 ">
-                                <div className="bg-[#0872BF] rounded-full h-1.5 w-[72%] "></div>
+                                <div className="bg-purple-500 rounded-full h-1.5 w-[72%] "></div>
                             </div>
                         </li>
 

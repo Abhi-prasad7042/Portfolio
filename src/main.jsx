@@ -1,22 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Header from './components/Header.jsx'
-import Banner from './components/Banner.jsx'
-import About from './components/About.jsx'
-import Skill from './components/Skill.jsx'
-import Projects from './components/Projects.jsx'
-import Contact from './components/Contact.jsx'
-import Footer from './components/Footer.jsx'
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import App from './App.jsx'
+import ProjectsInfo from './components/ProjectsInfo.jsx'
+
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/project",
+    element: <ProjectsInfo />
+  },
+  
+])
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header/>
-    <Banner/>
-    <Skill/>
-    <Projects/>
-    <About/>
-    <Contact/>
-    <Footer/>
+    <RouterProvider router={appRouter} />
   </React.StrictMode>,
 )
