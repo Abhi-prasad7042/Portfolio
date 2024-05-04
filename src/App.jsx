@@ -5,12 +5,14 @@ import Skill from './components/Skill.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import Experience from './components/Experience.jsx'
 
 function App() {
   return (
     <>
     <Header/>
     <Banner/>
+    <Experience/>
     <Skill/>
     <Projects/>
     <About/>
