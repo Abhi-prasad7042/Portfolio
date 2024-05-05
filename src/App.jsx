@@ -19,7 +19,7 @@ function App() {
     <About/>
     <Education/>
     <Contact/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }
