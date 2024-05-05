@@ -4,7 +4,7 @@ const Skill = ()=>{
     return(
         <section className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-5 mb-10 ">
             <h1 className="text-center mb-2 text-xl 2xl:text-2xl tracking-[1px] text-[#C73E86] font-semibold 2xl:mr-[6vw]">Skills</h1>
-            <div className="h-[1px] my-2 w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
+            <div className="h-[1px] my-2 w-full bg-gradient-to-r from-transparent via-orange-500 to-transparent"></div>
             <div className="py-5 md:px-9 text-white flex flex-col md:flex-row justify-around items-center md:gap-4 gap-2 mx-auto">
                 <Marquee>
                     <div className="border-2 my-2 md:w-[130px] w-[100px] md:h-[120px] h-[100px] rounded-lg border-[#0872BF] shadow-purple-500 shadow-sm md:mx-12 mx-8">

@@ -21,6 +21,9 @@ const Header = ()=>{
                             <a className="hover:text-purple-600" href="#home">Home</a>
                         </li>
                         <li>
+                            <a className="hover:text-purple-600" href="#exp">Experience</a>
+                        </li>
+                        <li>
                             <a className="hover:text-purple-600" href="#about">About</a>
                         </li>
                         <li>
