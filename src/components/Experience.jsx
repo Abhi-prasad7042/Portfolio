@@ -7,7 +7,7 @@ const Experience = () =>{
     return(
         <section id="exp" className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-5 my-8">
             <h1 className="text-center text-xl 2xl:text-2xl tracking-[1px] text-[#C73E86] font-semibold 2xl:mr-[6vw]">Experience</h1>
-            <div className="h-[1px] my-2 w-full bg-gradient-to-r from-transparent via-orange-500 to-transparent"></div>
+            <div className="h-[1px] my-2 w-full bg-gradient-to-r from-transparent via-white to-transparent"></div>
             
             <div className="flex md:flex-row flex-col gap-4 justify-center items-center ">
                 <div className="md:w-[400px] md:ml-0 ml-4 h-full">
