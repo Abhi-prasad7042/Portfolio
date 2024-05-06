@@ -17,9 +17,9 @@ const Projects = ()=>{
                     <p className="text-justify text-white">React-based Swiggy clone, facilitating food ordering with Swiggy API integration for seamless data retrieval and user experience.</p>
                 </div>
 
-                <div className="md:w-[250px] 2xl:w-[300px] w-[300px] px-5 py-4 my-3 rounded-lg border border-[#0872BF] shadow-purple-500 cursor-pointer shadow-sm hover:scale-[1.02] transition-all duration-300">
+                <div className="md:w-[250px]  2xl:w-[300px] w-[300px] px-5 py-4 my-3 rounded-lg border border-[#0872BF] shadow-purple-500 cursor-pointer shadow-sm hover:scale-[1.02] transition-all duration-300">
                     <img src="https://res.cloudinary.com/jerrick/image/upload/q_auto,w_720/607570415944dc001df58248.gif" alt="" className="w-[192px] h-[120px] mb-8 mx-auto rounded-lg"/>
-                    <h5 className="text-[#C73E86] font-bold text-center my-7 text-xl">ANPR</h5>
+                    <h5 className="text-[#C73E86] font-bold text-center my-1 text-xl">ANPR</h5>
                     <p className="text-justify text-white">Python-based ANPR system utilizing PaddleOCR and YOLOv5, integrated with Django for frontend, enabling automatic number plate recognition.</p>
                 </div>
 
