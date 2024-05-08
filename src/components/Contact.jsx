@@ -3,6 +3,7 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 import { personalData } from '../../utils/contactData';
+// import { useSnackbar } from 'react-simple-snackbar'
 
 export const Contact = () => {
   const [isMessage, setIsMessage] = useState(false)
@@ -12,7 +13,7 @@ export const Contact = () => {
     e.preventDefault();
     setIsMessage(true)
     emailjs
-      .sendForm('service_8dep29s', 'template_1pgdi4r', form.current, {
+      .sendForm( 'template_1pgdi4r', form.current, {
         publicKey: 'qU1cGh_P5FGm5_tYd',
       })
       .then(
@@ -28,7 +29,6 @@ export const Contact = () => {
     }, 2000);
     setInterval(()=> 
       setIsMessage(false),3000)
-    
   };
 
   return (
@@ -135,6 +135,8 @@ export const Contact = () => {
       <div className=' h-2'>
         <p className='text-white py-2 text-center'>Developed by Abhishek</p>
       </div>
+
+      
     </section>
   );
 };
