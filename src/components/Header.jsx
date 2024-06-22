@@ -36,7 +36,7 @@ const Header = ()=>{
                 </div>
                 <div className="flex items-center gap-6">
                     {/* <button className="bg-[#0872BF] text-white font-medium md:px-5 md:py-2 px-3 py-1 text-sm rounded-full hover:bg-[#047fd9]">Download CV</button> */}
-                    <a href="https://drive.google.com/file/d/1xnLNxJGAmcLLGjD69tO0DcAo2-zFT8GG/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1xnLNxJGAmcLLGjD69tO0DcAo2-zFT8GG/view" target="_blank">
                         <button className="bg-purple-500 text-white font-medium md:px-5 md:py-2 px-3 py-1 text-sm rounded-full hover:bg-purple-600">Download CV</button>
                     </a>
 
